@@ -7,6 +7,8 @@ import { Integration } from './components/Integration';
 import { Definition } from './components/Definition';
 import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
+import { Waitlist } from './components/Waitlist';
+
 
 export default function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,6 +32,7 @@ export default function App() {
         <UseCases />
         <Integration />
         <Definition />
+        <Waitlist /> 
       </main>
 
       <Footer />
