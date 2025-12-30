@@ -30,7 +30,7 @@ export const Integration: React.FC = () => {
                 <div className="flex gap-4 bg-zairo-accent/10 -mx-8 px-8 border-l-2 border-zairo-accent">
                   <span className="text-zairo-accent">02</span>
                   <span className="text-zairo-accent font-bold">
-                    + zairo_bridge.verify()
+                    + zairo_bridge.enforce()
                   </span>
                 </div>
 
@@ -50,23 +50,24 @@ export const Integration: React.FC = () => {
           </span>
 
           <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-8">
-            Seamless fit. <br /> Zero disruption.
+            Integrates without migration.
           </h2>
 
           <div className="space-y-6">
             <p className="text-xl text-zairo-muted leading-relaxed">
-              Zairo does not replace your infrastructure. It wraps around it.
+              Zairo does not replace your stack. It sits between intent and
+              execution.
             </p>
 
             <p className="text-lg text-zairo-text leading-relaxed">
-              It integrates with your existing governance, deployment pipelines,
-              and execution points — adding a verification layer without forcing
-              migration.
+              Integrate with existing governance flows, deployment pipelines,
+              and execution points — then enforce disclosure and delays where
+              changes matter.
             </p>
 
             <p className="text-lg text-zairo-text leading-relaxed">
-              You keep your tools. Zairo adds visibility and control where it
-              matters.
+              Keep your tooling. Zairo adds a public record and a mandatory
+              execution window.
             </p>
           </div>
         </div>

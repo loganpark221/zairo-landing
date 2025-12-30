@@ -13,7 +13,7 @@ export const UseCases: React.FC = () => {
           /// 03 — Application
         </span>
         <h2 className="font-display text-4xl md:text-5xl font-bold text-white">
-          Where Zairo works
+          Where Zairo applies
         </h2>
       </div>
 
@@ -27,8 +27,8 @@ export const UseCases: React.FC = () => {
             Governance
           </h3>
           <p className="text-zairo-muted leading-relaxed">
-            Enforce a visible, verifiable step between decision and execution —
-            so changes can’t move in silence.
+            Enforce intent disclosure and a mandatory execution delay before
+            governance actions can execute.
           </p>
         </div>
 
@@ -41,8 +41,8 @@ export const UseCases: React.FC = () => {
             Upgrades
           </h3>
           <p className="text-zairo-muted leading-relaxed">
-            Make upgrades observable and time-locked — with a clear window to
-            intervene before execution.
+            Record upgrade intent publicly and enforce timelocks — with a clear
+            window to review before execution.
           </p>
         </div>
 
@@ -55,8 +55,8 @@ export const UseCases: React.FC = () => {
             Admin Actions
           </h3>
           <p className="text-zairo-muted leading-relaxed">
-            Remove “god mode” risk — privileged actions are announced, logged,
-            and accountable by default.
+            Privileged actions should leave durable records and enforceable
+            delays — not implicit trust.
           </p>
         </div>
       </div>

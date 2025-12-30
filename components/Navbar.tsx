@@ -43,7 +43,7 @@ export const Navbar: React.FC<{ isScrolled?: boolean }> = ({ isScrolled }) => {
 
         {/* Right: CTA */}
         <div className="flex items-center gap-4">
-          {/* Mobile quick-jump (가볍게 2개만) */}
+          {/* Mobile quick-jump */}
           <nav className="flex md:hidden items-center gap-4">
             <a className={link} href="#why">
               Why
@@ -61,7 +61,7 @@ export const Navbar: React.FC<{ isScrolled?: boolean }> = ({ isScrolled }) => {
             withIcon={false}
             className="px-5 py-2"
           >
-            Join
+            Request access
           </Button>
         </div>
       </div>

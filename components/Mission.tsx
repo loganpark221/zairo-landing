@@ -19,27 +19,25 @@ export const Mission: React.FC = () => {
         </h1>
 
         <h2 className="text-3xl md:text-5xl font-light text-white mb-12 leading-tight">
-          Nothing moves{" "}
-          <span className="text-zairo-muted italic font-serif">quietly</span>.
+          Protocol changes should not be silent.
         </h2>
 
         <div className="flex flex-col md:flex-row gap-12 items-start md:items-end">
           <div className="text-lg md:text-xl text-zairo-muted max-w-lg leading-relaxed space-y-6">
             <p>
-              Zairo makes critical protocol changes observable{" "}
-              <span className="text-white/90">before they execute</span>.
+              Zairo enforces intent disclosure and execution delays for on-chain
+              systems.
             </p>
 
             <p>
-              In complex systems, decisions drift away from execution. Zairo
-              reconnects them — introducing{" "}
-              <span className="text-white/90">visibility</span>,{" "}
-              <span className="text-white/90">delay</span>, and{" "}
-              <span className="text-white/90">verification</span> at the moment it
-              matters most.
+              Critical changes should be announced, recorded, and given time
+              before they execute.
             </p>
 
-            <p>Changes don’t disappear into logs. They happen in the open.</p>
+            <p>
+              Not a new chain. Not a new wallet. A thin layer that adds a public
+              record and a mandatory execution window.
+            </p>
           </div>
 
           <Button
@@ -48,7 +46,7 @@ export const Mission: React.FC = () => {
             rel="noreferrer"
             className="min-w-[220px] justify-center"
           >
-            Join the waitlist
+            Request access
           </Button>
         </div>
       </div>

@@ -6,18 +6,18 @@ export const Problem: React.FC = () => {
   const cards = [
     {
       icon: <EyeOff className="w-8 h-8 text-zairo-accent" />,
-      title: "Invisible Drift",
-      desc: "Small, untracked changes compound until systems behave in ways no one intended — and nobody can pinpoint the moment it happened.",
+      title: "Unreported Changes",
+      desc: "Small changes ship quietly. Over time, the system drifts — and the point of change is no longer recoverable from memory.",
     },
     {
       icon: <AlertTriangle className="w-8 h-8 text-zairo-accent" />,
-      title: "Zero Accountability",
-      desc: "When privileged actions leave no durable trace, governance becomes theater. You can’t audit what you can’t observe.",
+      title: "No Audit Trail",
+      desc: "Privileged actions without durable records turn governance into interpretation. You cannot verify what was never recorded.",
     },
     {
       icon: <GitCommit className="w-8 h-8 text-zairo-accent" />,
-      title: "Disconnected State",
-      desc: "Reality diverges from documentation, and trust erodes quietly — right up until the incident forces it into the open.",
+      title: "Intent–Execution Gap",
+      desc: "Documentation says one thing. Execution does another. The gap persists until an incident forces it into view.",
     },
   ];
 
@@ -40,20 +40,20 @@ export const Problem: React.FC = () => {
 
         <div className="space-y-6">
           <p className="text-xl text-zairo-text leading-relaxed">
-            Modern infrastructure is automated, fast, and powerful — but speed
-            often comes at the cost of visibility.
+            Modern systems ship changes quickly — often faster than teams can
+            review, document, or communicate.
           </p>
 
           <p className="text-xl text-zairo-text leading-relaxed">
-            Silent updates, undocumented admin actions, and configuration drift
-            create blind spots over time.
+            Undisclosed updates and privileged admin actions create blind spots
+            that compound over time.
           </p>
 
           <p className="text-xl text-zairo-muted leading-relaxed">
-            When execution is disconnected from intent, you lose the ability to
-            answer the most important question:
+            When execution is separated from intent, you lose the ability to
+            answer the only question that matters:
             <br />
-            <em>Who changed what — and why?</em>
+            <em>What changed — who approved it — and when does it execute?</em>
           </p>
         </div>
       </div>
@@ -68,7 +68,9 @@ export const Problem: React.FC = () => {
             <h3 className="text-xl font-bold text-white mb-3 font-display">
               {item.title}
             </h3>
-            <p className="text-zairo-muted text-sm leading-relaxed">{item.desc}</p>
+            <p className="text-zairo-muted text-sm leading-relaxed">
+              {item.desc}
+            </p>
           </div>
         ))}
       </div>

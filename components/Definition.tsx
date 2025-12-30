@@ -20,10 +20,10 @@ export const Definition: React.FC = () => {
 
           <ul className="space-y-6">
             {[
-              "A visible step between intent and execution.",
-              "A public, tamper-resistant record of critical changes.",
-              "Timelock-enforced execution for administrative power.",
-              "A thin layer that integrates with existing systems.",
+              "A change-control layer between intent and execution.",
+              "A public, tamper-resistant record of protocol changes.",
+              "Mandatory timelocks for administrative actions.",
+              "A thin integration layer for existing systems.",
             ].map((item, i) => (
               <li
                 key={i}
@@ -49,10 +49,10 @@ export const Definition: React.FC = () => {
 
           <ul className="space-y-6">
             {[
-              "A wallet, token, or custody layer.",
-              "A replacement for governance or security frameworks.",
+              "A wallet, token, or custody product.",
+              "A replacement for governance or security processes.",
               "A new chain or execution environment.",
-              "A heavy dashboard or ops console.",
+              "A full control plane or operations dashboard.",
             ].map((item, i) => (
               <li
                 key={i}
