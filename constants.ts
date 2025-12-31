@@ -1,1 +1,1 @@
-export const WAITLIST_URL = "https://airtable.com/appPZaireWaitlistForm";
+export const WAITLIST_URL = "https://tally.so/r/ZjEoNV";

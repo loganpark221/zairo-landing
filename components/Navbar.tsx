@@ -24,33 +24,19 @@ export const Navbar: React.FC<{ isScrolled?: boolean }> = ({ isScrolled }) => {
 
         {/* Center: Nav (Desktop) */}
         <nav className="hidden md:flex items-center gap-8">
-          <a className={link} href="#mission">
-            Mission
-          </a>
-          <a className={link} href="#why">
-            Why
-          </a>
-          <a className={link} href="#platform">
-            Platform
-          </a>
-          <a className={link} href="#integration">
-            Integration
-          </a>
-          <a className={link} href="#definition">
-            Definition
-          </a>
+          <a className={link} href="#mission">Mission</a>
+          <a className={link} href="#why">Why</a>
+          <a className={link} href="#platform">Platform</a>
+          <a className={link} href="#integration">Integration</a>
+          <a className={link} href="#definition">Definition</a>
         </nav>
 
         {/* Right: CTA */}
         <div className="flex items-center gap-4">
           {/* Mobile quick-jump */}
           <nav className="flex md:hidden items-center gap-4">
-            <a className={link} href="#why">
-              Why
-            </a>
-            <a className={link} href="#platform">
-              Platform
-            </a>
+            <a className={link} href="#why">Why</a>
+            <a className={link} href="#platform">Platform</a>
           </nav>
 
           <Button
